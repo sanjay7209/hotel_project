@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException, Query, Body, Path
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
+import re
 import models, schemas
 from database import SessionLocal, engine, Base
 from typing import List, Optional
