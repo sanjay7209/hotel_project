@@ -22,3 +22,5 @@ starlette==0.38.2
 
 # For type hints (optional)
 typing-extensions==4.12.2
+# dotenv for environment variables
+python-dotenv==0.21.0
